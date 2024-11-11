@@ -5,17 +5,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Merchandise</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
-        <h2 class="logo"></a><span>UCCP</span> MERCH</h2>
+        <h3 class="logo"></a><span class="span1">LIBRYNTHIA</span></h3>
 
         <nav class="navigation">
-            <button><span></span>Sign In</button>
-            <button><span></span>Sign Up</button>
+            <button class="btnLogin-popup"><span></span>Login</button>
         </nav>
     </header>
+
+    <section class="home">
+        <div class="home-img">
+            <img src="main.jpg" alt="">
+        </div>
+        <div class="home-content">
+            <h3>Lybrynthia Library System<span></span></h3>
+            <p>an intuitive and efficient mobile application designed specifically for librarians and students to streamline the process of borrowing and managing books and resources. This system simplifies the library experience, offering a user-friendly interface that allows students to easily browse, borrow, and return books, while librarians can manage inventories, track transactions, and ensure smooth operation of the library.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <div class="wrapper">
+        <span class="icon-close">
+            <ion-icon name="exit-outline"></ion-icon>
+        </span>
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person-outline"></ion-icon></span>  
+                        <input type="username" required>
+                        <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></ion-icon></span>  
+                        <input type="password" required>
+                        <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox" class="checkbox">
+                     <span>Remember me</span></label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="login-register">
+                    <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+                </div>
+            </form>
+        </div>
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person-outline"></ion-icon></span>  
+                        <input type="username" required>
+                        <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>  
+                        <input type="email" required>
+                        <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></ion-icon></span>  
+                        <input type="password" required>
+                        <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox" class="checkbox">
+                    I agree to the terms & conditions</label>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="login-register">
+                    <p>Already have an account?? <a href="#" class="login-link">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
     
     <script src="js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
